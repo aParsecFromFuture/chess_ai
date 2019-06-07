@@ -1,0 +1,10 @@
+Programı derlemek için ./compile.bash yazabilirsin.
+Veya bash dosyasındaki komutları elle de girebilirsin.
+Programı çalıştırmak için : ./main
+
+***
+
+Arayüz için gtkmm kullanılıyor. Eğer yoksa arayüzü kullanamazsınız.
+Oyunu terminalden izlemek için alttaki komutları çalıştırın. 
+./compile2.bash
+./main2
