@@ -93,7 +93,7 @@ class Game : public Gtk::DrawingArea{
 	public:
 		void foo(){
 			int x,y,z,w;
-			srand(4);
+			srand(time(0));
 			for(int i = 0;i < 200;i++){
 				if(!chess.playAI(WHITE,2))break;
 				queue_draw();
